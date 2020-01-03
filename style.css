@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap&subset=chinese-simplified');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: url("img/bg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    div {
+      display: flex;
+      margin: auto;
+
+    }
+
+    div button {
+      margin: auto;
+      display: block;
+      width: 200px;
+      height: 60px;
+      color: slategrey;
+      background-color: #7f2c0a;
+      outline: none;
+      border: none;
+      border-radius: 15px;
+      font-size: 40px;
+      font-family: 'Ma Shan Zheng', cursive;
+
+    }
+
+    table {
+      margin: auto;
+      display: none;
+      outline: none;
+      border: none;
+    }
+
+    table,
+    td {
+      border: 2px solid slategrey;
+      outline: none;
+      border-radius: 5px;
+      border-collapse: collapse;
+      background-color: white;
+
+    }
+
+    td {
+      height: 120px;
+      width: 120px;
+      text-align: center;
+      user-select: none;
+      cursor: pointer;
+    }
+
+    td img {
+      width: 80px;
+      height: 120px;
+    }
+
+    p {
+      font-size: 60px;
+      color: slategrey;
+      font-family: 'Ma Shan Zheng', cursive;
+      text-align: center;
+      display: block;
+    }
+
+    img {
+      height: auto;
+      width: 300;
+      margin: auto;
+    }
+
+    #tbl_p {
+      display: none;
+      background-color: #c21e03;
+      width: 400px;
+      text-align: left;
+      padding-left: 5px;
+    }
+
+    #all{
+      display: none;
+    }
+    #Last_p
+    {
+      display: none;
+      margin-top: 200px;
+      
+    }
+    #Last_b
+    {
+      display: none;
+      margin: auto;
+      margin-top: 150px;
+      width: 200px;
+      height: 60px;
+      color: slategrey;
+      background-color: #7f2c0a;
+      outline: none;
+      border: none;
+      border-radius: 15px;
+      font-size: 40px;
+      font-family: 'Ma Shan Zheng', cursive;
+
+    }
